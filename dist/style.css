@@ -1,0 +1,10 @@
+body {
+    display: flex;
+}
+
+button {
+    width: 400px;
+    background-color: black;
+    color: white;
+    border-bottom: none;
+}
