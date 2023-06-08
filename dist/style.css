@@ -1,5 +1,6 @@
 body {
     display: flex;
+    background-image: url(atomic-noodles.jpg); ;
 }
 
 button {
@@ -7,4 +8,35 @@ button {
     background-color: black;
     color: white;
     border-bottom: none;
+    cursor: pointer;
 }
+
+.tab-content {
+    background-size: cover;
+    background-position: center;
+    color: white;
+  }
+  
+  .tab {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .menu-item {
+    margin-bottom: 20px;
+  }
+  
+  .menu-item-desc {
+    font-style: italic;
+  }
+  
+  .menu-item-title {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .menu-item-desc {
+    margin-top: 5px;
+  }
+  

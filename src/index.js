@@ -16,19 +16,27 @@ content.appendChild(homeTab);
 content.appendChild(menuTab);
 content.appendChild(contactTab);
 
-function clearContent(){
-  
+const tabContent = document.createElement("div");
+tabContent.classList.add("tab-content");
+content.appendChild(tabContent);
+
+function clearContent() {
+  tabContent.innerHTML = "";
 }
 
-// Set event listeners for tab buttons
 homeTab.addEventListener("click", () => {
-  createHomeTab();
+  clearContent();
+  createHomeTab(tabContent);
 });
 
 menuTab.addEventListener("click", () => {
-  createMenuTab();
+  clearContent();
+  createMenuTab(tabContent);
 });
 
-contactTab.addEventListener("click", () => { 
-  createContactTab();
+contactTab.addEventListener("click", () => {
+  clearContent();
+  createContactTab(tabContent);
 });
+
+createHomeTab(tabContent);
