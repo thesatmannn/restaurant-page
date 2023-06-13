@@ -12,9 +12,13 @@ contactTab.classList.add("tab", "contact");
 homeTab.textContent = "Home";
 menuTab.textContent = "Menu";
 contactTab.textContent = "Contact";
-content.appendChild(homeTab);
-content.appendChild(menuTab);
-content.appendChild(contactTab);
+
+const tabHeader = document.createElement("div");
+tabHeader.classList.add("header");
+tabHeader.appendChild(homeTab);
+tabHeader.appendChild(menuTab);
+tabHeader.appendChild(contactTab);
+content.appendChild(tabHeader);
 
 const tabContent = document.createElement("div");
 tabContent.classList.add("tab-content");
@@ -26,7 +30,7 @@ function clearContent() {
 
 homeTab.addEventListener("click", () => {
   clearContent();
-  createHomeTab(tabContent);
+  createHomeTab(tabContent);  
 });
 
 menuTab.addEventListener("click", () => {

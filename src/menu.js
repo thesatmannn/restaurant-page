@@ -1,7 +1,5 @@
 // eslint-disable-next-line import/prefer-default-export
 export function createMenuTab(tabContent) {
-  tabContent.innerHTML = "";
-
   const header = document.createElement("h1");
   header.textContent = "Menu";
   header.style.margin = "0";
@@ -63,21 +61,4 @@ export function createMenuTab(tabContent) {
   menuList.appendChild(menuItem6);
 
   tabContent.appendChild(menuList);
-}
-menuItems.forEach((menuItem) => {
-  const menuBox = document.createElement("div");
-  menuBox.classList.add("menu-item", "fade-in");
-
-  const title = document.createElement("h3");
-  title.textContent = menuItem.title;
-  title.classList.add("menu-item-title");
-
-  const description = document.createElement("p");
-  description.textContent = menuItem.description;
-  description.classList.add("menu-item-desc");
-
-  menuBox.appendChild(title);
-  menuBox.appendChild(description);
-  menuList.appendChild(menuBox);
-});
 }
