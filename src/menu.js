@@ -2,6 +2,7 @@
 export function createMenuTab(tabContent) {
   const header = document.createElement("h1");
   header.textContent = "Menu";
+  header.classList.add("menu-header");
   tabContent.appendChild(header);
 
 

@@ -1,7 +1,7 @@
 // eslint-disable-next-line import/prefer-default-export
 export function createContactTab(tabContent) {
   const contactPage = document.createElement("div");
-  contactPage.classList.add()
+  contactPage.classList.add("contact-page");
   const header = document.createElement("h1");
   header.textContent = "Contact Us";
   header.style.margin = "0";

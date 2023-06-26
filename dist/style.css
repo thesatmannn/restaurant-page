@@ -12,6 +12,7 @@ body {
   padding: 20px;
 }
 
+
 .hometab {
   margin-top: 60px;
 }
@@ -32,6 +33,7 @@ button {
   border-color: white;
   cursor: pointer;
   font-size: large;
+  font-style: italic;
 }
 
 .tab-content {
@@ -40,6 +42,17 @@ button {
   color: white;
 }
 
+.menu-header {
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+  font-style: italic;
+  font-size: 60px;
+}
+
+ul {
+  margin-top: 40px;
+}
 .menu-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -61,7 +74,7 @@ h1 {
 
 .menu-item-title {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 36px;
   margin-bottom: 5px;
 }
 
