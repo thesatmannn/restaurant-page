@@ -1,6 +1,7 @@
 // eslint-disable-next-line import/prefer-default-export
 export function createHomeTab(tabContent) {
   const homeTabDiv = document.createElement("div");
+  homeTabDiv.classList.add("hometab");
   homeTabDiv.style.color = "white";
   homeTabDiv.style.height = "100vh";
   homeTabDiv.style.backgroundSize = "cover";

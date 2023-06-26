@@ -12,10 +12,16 @@ body {
   padding: 20px;
 }
 
-.header {
-  display: flex;
-  justify-content: center;
-  
+.hometab {
+  margin-top: 60px;
+}
+.hometab h1 {
+  font-size: 60px;
+}
+
+.hometab p {
+  font-size: larger;
+  width: 50vw
 }
 
 button {
@@ -23,6 +29,7 @@ button {
   background-color: black;
   color: white;
   border-bottom: none;
+  border-color: white;
   cursor: pointer;
   font-size: large;
 }
@@ -60,4 +67,11 @@ h1 {
 
 .menu-item-desc {
   margin-top: 5px;
+}
+
+.contact-info {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  color: white;
+  text-align: center;
 }

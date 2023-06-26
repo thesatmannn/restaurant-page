@@ -2,10 +2,11 @@
 export function createMenuTab(tabContent) {
   const header = document.createElement("h1");
   header.textContent = "Menu";
-  header.style.margin = "0";
   tabContent.appendChild(header);
 
+
   const menuList = document.createElement("ul");
+  menuList.classList.add("menu-grid");
   const menuItem1 = document.createElement("li");
   menuItem1.textContent = "Noodle Soup";
   menuItem1.setAttribute("class", "menu-item");
