@@ -22,6 +22,10 @@ export function createContactTab(tabContent) {
   email.textContent = "Email: info@atomicnoodles.com";
   contactInfo.appendChild(email);
 
+  const map = document.createElement("div");
+  map.classList.add("map");
+  contactInfo.appendChild(map);
+
   contactPage.appendChild(contactInfo);
   tabContent.appendChild(contactPage);
 }
