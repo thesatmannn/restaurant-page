@@ -27,7 +27,6 @@ content.appendChild(tabContent);
 function clearContent() {
   tabContent.innerHTML = "";
 }
-
 homeTab.addEventListener("click", () => {
   clearContent();
   createHomeTab(tabContent);  

@@ -67,6 +67,58 @@ ul {
   margin-top: 20px;
 }
 
+.noodle1 {
+  background-image: url(noodle1.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+}
+.noodle2{
+  background-image: url(noodle2.jpg);
+  background-position: center;
+  background-size: cover;
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+}
+
+.noodle3{
+  background-image: url(noodle3.jpg);
+  background-size: cover;
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+}
+
+.noodle4 {
+  background-image: url(noodle4.jpg);
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+}
+
+.noodle5 {
+  background-image: url(noodle5.jpg);
+  background-size: cover;
+  background-position: center;
+  object-fit: contain;
+  width: 200px;
+  height: 200px;
+}
+
+.noodle6 {
+  background-image: url(noodle6.jpg);
+  object-fit: contain;
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+}
+
 h1 {
   font: larger;
 }
@@ -77,6 +129,10 @@ h1 {
   color: white;
   text-align: center;
   list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .menu-item {
@@ -100,4 +156,8 @@ h1 {
 .contact-page {
   text-align: center;
   margin-top: 140px;
+}
+
+.map{
+  background-image: ;
 }
